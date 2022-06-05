@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    color: #40514E;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+hr {
+    width: 60px;
+    margin: 50px;
+    display: inline-block;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Island Moments', cursive;
+    font-size: 600%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+
+.top-container {
+    /* background-color: #23577E; */
+    color: #ebef74;
+    padding-top: 100px;
+    height: 700px;
+    background: radial-gradient(70% 70% at center, transparent 80%, #23577E),
+        url("../images/kaskawulsh.jpeg") center/cover;
+    text-shadow: 1px 0.4px black;
+
+}
+
+.top-container img {
+    margin-bottom: -4px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skills {
+    margin-bottom: 50px;
+}
+
+.skill-row-one,
+.skill-row-two {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 1.5;
+
+}
+
+.skill-row-one img {
+    float: left;
+    margin-right: 10px;
+}
+
+.skill-row-two img {
+    float: right;
+    margin-left: 30px;
+}
+
+.python-logo {
+    height: 100px;
+
+}
+
+.javascript-logo {
+    height: 100px;
+    margin-left: -50px;
+    margin-right: -60px;
+}
+
+.html-logo {
+    height: 100px;
+    margin-left: -20px;
+}
+
+.css-logo {
+    height: 100px;
+}
+
+.contact-me {
+    height: auto;
+    margin-bottom: 70px;
+}
+
+.contact-me p {
+    margin-bottom: 40px;
+}
+
+.contact-me .btn {
+    color: white;
+    text-decoration: none;
+    background-color: #23577E;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+.btn:hover {
+    background-color: #3077ad;
+}
+
+.bottom-container {
+    background-color: #23577E;
+    height: 100px;
+    padding-top: 30px;
+
+}
+
+.bottom-container p {
+    color: #F5F5F5;
+    margin-top: 30px;
+
+}
+
+.footer-link {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #fbfbf3;
+    font-size: 24px;
+}
+
+.footer-link:hover {
+    color: #999a97;
+}

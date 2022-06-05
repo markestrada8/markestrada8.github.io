@@ -62,8 +62,11 @@ a {
 .skill-row-one img {
     float: left;
     margin-right: 10px;
+}
 
-    @media only screen and (max-width:400px) {
+@media only screen and (max-width:435px) {
+    .skill-row-one {
+        width: 150px;
         float: none;
     }
 }
@@ -71,6 +74,18 @@ a {
 .skill-row-two img {
     float: right;
     margin-left: 30px;
+}
+
+@media only screen and (max-width:435px) {
+    .skill-row-two {
+        width: 150px;
+        float: none;
+
+    }
+
+    .skill-row-two img {
+        margin-left: 0;
+    }
 }
 
 .python-logo {

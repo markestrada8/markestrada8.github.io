@@ -33,9 +33,7 @@ a {
     color: #11999E;
 }
 
-
 .top-container {
-    /* background-color: #23577E; */
     color: #ebef74;
     padding-top: 100px;
     height: 700px;
@@ -49,34 +47,25 @@ a {
     margin-bottom: -4px;
 }
 
-.top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
-}
-
-.bottom-cloud {
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-}
-
 .skills {
     margin-bottom: 50px;
 }
 
 .skill-row-one,
 .skill-row-two {
-    width: 50%;
+    width: 60%;
     margin: 100px auto;
     text-align: left;
     line-height: 1.5;
-
 }
 
 .skill-row-one img {
     float: left;
     margin-right: 10px;
+
+    @media only screen and (max-width:400px) {
+        float: none;
+    }
 }
 
 .skill-row-two img {
